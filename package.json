@@ -3,6 +3,8 @@
   "version": "1.0.0",
   "main": "exam.js",
   "scripts": {
+    "start": "node exam.js",
+    "dev": "nodemon exam.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
