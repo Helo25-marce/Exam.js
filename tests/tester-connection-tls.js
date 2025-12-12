@@ -1,5 +1,5 @@
 const { MongoClient, ServerApiVersion } = require('mongodb');
-require('dotenv').config();
+require('dotenv').config({ path: '../.env' });
 
 // Essayer différentes configurations
 const configurations = [

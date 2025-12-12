@@ -79,7 +79,7 @@ Les questions textuelles de la Phase 10 utilisent généralement des verbes comm
 
 ## Réponses Disponibles
 
-Toutes les réponses à ces questions sont disponibles dans le document **`REPONSES_PHASE_10.md`** qui contient :
+Toutes les réponses à ces questions sont disponibles dans le document **`REPONSES_PHASE_10.md`** (dans ce même dossier) qui contient :
 
 1. **Section 1** : Architecture du Système (répond aux questions 1.1, 1.2, 1.3)
 2. **Section 2** : Parcours Détaillé des Requêtes (répond aux questions 2.1, 2.2, 2.3)

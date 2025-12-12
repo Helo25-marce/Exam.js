@@ -1,6 +1,6 @@
 const { MongoClient, ServerApiVersion } = require('mongodb');
 const http = require('http');
-require('dotenv').config();
+require('dotenv').config({ path: '../.env' });
 
 async function testerServeurComplet() {
   console.log('🧪 TEST COMPLET DU SYSTÈME\n');
@@ -139,7 +139,7 @@ async function testerServeurComplet() {
   console.log('   - Port 3007: Microservice Pepper');
   console.log('   - Port 3006: Serveur Principal');
   console.log('\n⚠️  IMPORTANT: Toutes les requêtes nécessitent l\'en-tête X-PoW-Proof');
-  console.log('   (Preuve de travail - voir README.md pour le calcul)\n');
+  console.log('   (Preuve de travail - voir scripts/calculer-pow.js)\n');
   
   return true;
 }

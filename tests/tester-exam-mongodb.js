@@ -1,6 +1,6 @@
 // Test de la connexion MongoDB depuis exam.js
 const { MongoClient, ServerApiVersion } = require('mongodb');
-require('dotenv').config();
+require('dotenv').config({ path: '../.env' });
 
 const URI_MONGODB = process.env.MONGODB_URI || 'mongodb://localhost:27017';
 const NOM_BASE_DONNEES = process.env.DB_NAME || 'auth_db';
@@ -73,7 +73,7 @@ async function testerConnexionExam() {
     console.log('\n📋 Prochaines étapes:');
     console.log('   1. Démarrer le microservice pepper: node pepper-service.js');
     console.log('   2. Démarrer le serveur principal: node exam.js');
-    console.log('   3. Tester avec Postman (voir README.md)\n');
+    console.log('   3. Tester avec Postman (voir documentation/GUIDE_POSTMAN.md)\n');
     
     return true;
   } catch (erreur) {

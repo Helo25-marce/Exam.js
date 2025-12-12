@@ -1,5 +1,5 @@
 const { MongoClient, ServerApiVersion } = require('mongodb');
-require('dotenv').config();
+require('dotenv').config({ path: '../.env' });
 
 // Utiliser l'URI exacte de l'exemple MongoDB Atlas (sans nom de base de données)
 const uri = "mongodb+srv://etameeddy01_db_user:ZO15Z60kSXyoPvaH@projet.mwh5ufv.mongodb.net/?appName=Projet";
